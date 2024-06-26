@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body{
+    background-color: rgb(186, 181, 181);
+
+}
+
+.userFlex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 1.5rem;
+    padding: 1.5rem;
+    
+}
+.flex1::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media(max-width:668px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+}
